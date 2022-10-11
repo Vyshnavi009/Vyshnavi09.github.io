@@ -6,7 +6,7 @@ img.onload = ()=> callback(img);
 img.src = src;
 };
 let imagePath =(frameNumber, animation)=>{
-    return animation + "/" + frameNumber + ".png";
+    return "/" + animation + "/" + frameNumber + ".png";
 };
 let frames={
     idle:[1,2,3,4,5,6,7,8],
